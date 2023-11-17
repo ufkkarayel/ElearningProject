@@ -11,5 +11,6 @@ namespace ElearningProject.DAL.Context
     {
         public DbSet<Category> Categories { get; set; }
         public DbSet<Instructor> Instructors { get; set; }
+        public DbSet<Testimonial> Testimonials { get; set; }
     }
 }
