@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ElearningProject.DAL.Context;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,10 +9,11 @@ namespace ElearningProject.Controllers
 {
     public class CategoryController : Controller
     {
-        // GET: Category
+        ELearningContext context = new ELearningContext();
         public ActionResult Index()
         {
-            return View();
+            var values = context.Categories.ToList();
+            return View(values);
         }
     }
 }

@@ -799,6 +799,9 @@
     <Content Include="Views\AdminLayout\PartialSidebar.cshtml" />
     <Content Include="Views\AdminLayout\PartialScript.cshtml" />
     <Content Include="Views\AdminLayout\PartialNavbar.cshtml" />
+    <Content Include="Views\AdminLayout\PartialRowPageTitle.cshtml" />
+    <Content Include="Views\AdminLayout\PartialPreloader.cshtml" />
+    <Content Include="Views\AdminLayout\PartialFooter.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
