@@ -129,6 +129,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminLayoutController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\ElearningContext.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InstructorController.cs" />
@@ -138,6 +139,7 @@
     <Compile Include="DAL\Entities\Comment.cs" />
     <Compile Include="DAL\Entities\Contact.cs" />
     <Compile Include="DAL\Entities\Instructor.cs" />
+    <Compile Include="DAL\Entities\Services.cs" />
     <Compile Include="DAL\Entities\Testimonial.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -157,6 +159,10 @@
     <Compile Include="Migrations\202311181720376_mig-4.cs" />
     <Compile Include="Migrations\202311181720376_mig-4.designer.cs">
       <DependentUpon>202311181720376_mig-4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202311181753306_mig-5.cs" />
+    <Compile Include="Migrations\202311181753306_mig-5.designer.cs">
+      <DependentUpon>202311181753306_mig-5.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -959,6 +965,12 @@
     <Content Include="Views\Testimonial\Index.cshtml" />
     <Content Include="Views\Testimonial\AddTestimonial.cshtml" />
     <Content Include="Views\Testimonial\UpdateTestimonial.cshtml" />
+    <Content Include="Views\Default\Index.cshtml" />
+    <Content Include="Views\Default\PartialHead.cshtml" />
+    <Content Include="Views\Default\PartialSpinner.cshtml" />
+    <Content Include="Views\Default\PartialNavbar.cshtml" />
+    <Content Include="Views\Default\PartialCarousel.cshtml" />
+    <Content Include="Views\Default\PartialServices.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -989,6 +1001,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202311181720376_mig-4.resx">
       <DependentUpon>202311181720376_mig-4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202311181753306_mig-5.resx">
+      <DependentUpon>202311181753306_mig-5.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
