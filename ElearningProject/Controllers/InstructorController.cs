@@ -47,6 +47,7 @@ namespace ElearningProject.Controllers
             var value = context.Instructors.Find(instructor.InstructorID);
             value.Name = instructor.Name;
             value.Surname = instructor.Surname;
+            value.ImageUrl = instructor.ImageUrl;
             context.SaveChanges();
             return RedirectToAction("Index");
         }
