@@ -135,6 +135,7 @@
     <Compile Include="Controllers\InstructorController.cs" />
     <Compile Include="Controllers\TestimonialController.cs" />
     <Compile Include="DAL\Context\ELearningContext.cs" />
+    <Compile Include="DAL\Entities\Carousel.cs" />
     <Compile Include="DAL\Entities\Category.cs" />
     <Compile Include="DAL\Entities\Comment.cs" />
     <Compile Include="DAL\Entities\Contact.cs" />
@@ -163,6 +164,10 @@
     <Compile Include="Migrations\202311181753306_mig-5.cs" />
     <Compile Include="Migrations\202311181753306_mig-5.designer.cs">
       <DependentUpon>202311181753306_mig-5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202311181818512_mig-6.cs" />
+    <Compile Include="Migrations\202311181818512_mig-6.designer.cs">
+      <DependentUpon>202311181818512_mig-6.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -971,6 +976,13 @@
     <Content Include="Views\Default\PartialNavbar.cshtml" />
     <Content Include="Views\Default\PartialCarousel.cshtml" />
     <Content Include="Views\Default\PartialServices.cshtml" />
+    <Content Include="Views\Default\PartialAbout.cshtml" />
+    <Content Include="Views\Default\PartialCategory.cshtml" />
+    <Content Include="Views\Default\PartialCourse.cshtml" />
+    <Content Include="Views\Default\PartialTeam.cshtml" />
+    <Content Include="Views\Default\PartialTestimonial.cshtml" />
+    <Content Include="Views\Default\PartialFooter.cshtml" />
+    <Content Include="Views\Default\PartialScript.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -1004,6 +1016,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202311181753306_mig-5.resx">
       <DependentUpon>202311181753306_mig-5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202311181818512_mig-6.resx">
+      <DependentUpon>202311181818512_mig-6.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
