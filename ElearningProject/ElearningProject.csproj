@@ -134,6 +134,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InstructorController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
+    <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="Controllers\TestimonialController.cs" />
     <Compile Include="DAL\Context\ELearningContext.cs" />
     <Compile Include="DAL\Entities\Carousel.cs" />
@@ -170,6 +171,10 @@
     <Compile Include="Migrations\202311181818512_mig-6.cs" />
     <Compile Include="Migrations\202311181818512_mig-6.designer.cs">
       <DependentUpon>202311181818512_mig-6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202311201634549_mig_add_student.cs" />
+    <Compile Include="Migrations\202311201634549_mig_add_student.designer.cs">
+      <DependentUpon>202311201634549_mig_add_student.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -992,6 +997,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Student\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -1024,6 +1030,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202311181818512_mig-6.resx">
       <DependentUpon>202311181818512_mig-6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202311201634549_mig_add_student.resx">
+      <DependentUpon>202311201634549_mig_add_student.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
