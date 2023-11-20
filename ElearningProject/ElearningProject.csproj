@@ -142,6 +142,7 @@
     <Compile Include="DAL\Entities\Contact.cs" />
     <Compile Include="DAL\Entities\Instructor.cs" />
     <Compile Include="DAL\Entities\Services.cs" />
+    <Compile Include="DAL\Entities\Student.cs" />
     <Compile Include="DAL\Entities\Testimonial.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

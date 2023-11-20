@@ -16,5 +16,6 @@ namespace ElearningProject.DAL.Context
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Services> Services { get; set; }
         public DbSet<Carousel> Carousels { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 }
