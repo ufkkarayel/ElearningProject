@@ -141,6 +141,7 @@
     <Compile Include="DAL\Entities\Category.cs" />
     <Compile Include="DAL\Entities\Comment.cs" />
     <Compile Include="DAL\Entities\Contact.cs" />
+    <Compile Include="DAL\Entities\Course.cs" />
     <Compile Include="DAL\Entities\Instructor.cs" />
     <Compile Include="DAL\Entities\Services.cs" />
     <Compile Include="DAL\Entities\Student.cs" />
@@ -175,6 +176,18 @@
     <Compile Include="Migrations\202311201634549_mig_add_student.cs" />
     <Compile Include="Migrations\202311201634549_mig_add_student.designer.cs">
       <DependentUpon>202311201634549_mig_add_student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202311211710309_add-mig-course.cs" />
+    <Compile Include="Migrations\202311211710309_add-mig-course.designer.cs">
+      <DependentUpon>202311211710309_add-mig-course.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202311211715538_mig-add-relation.cs" />
+    <Compile Include="Migrations\202311211715538_mig-add-relation.designer.cs">
+      <DependentUpon>202311211715538_mig-add-relation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202311211721452_mig-add-relation-course-instructor.cs" />
+    <Compile Include="Migrations\202311211721452_mig-add-relation-course-instructor.designer.cs">
+      <DependentUpon>202311211721452_mig-add-relation-course-instructor.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -1035,6 +1048,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202311201634549_mig_add_student.resx">
       <DependentUpon>202311201634549_mig_add_student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202311211710309_add-mig-course.resx">
+      <DependentUpon>202311211710309_add-mig-course.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202311211715538_mig-add-relation.resx">
+      <DependentUpon>202311211715538_mig-add-relation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202311211721452_mig-add-relation-course-instructor.resx">
+      <DependentUpon>202311211721452_mig-add-relation-course-instructor.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

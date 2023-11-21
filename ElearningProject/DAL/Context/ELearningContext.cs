@@ -17,5 +17,6 @@ namespace ElearningProject.DAL.Context
         public DbSet<Services> Services { get; set; }
         public DbSet<Carousel> Carousels { get; set; }
         public DbSet<Student> Students { get; set; }
+        public DbSet<Course> Courses { get; set; }
     }
 }
