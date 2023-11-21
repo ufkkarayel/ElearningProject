@@ -129,6 +129,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminLayoutController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\ElearningContext.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -1014,6 +1015,7 @@
     <Content Include="Views\Student\Index.cshtml" />
     <Content Include="Views\Student\AddStudent.cshtml" />
     <Content Include="Views\Student\UpdateStudent.cshtml" />
+    <Content Include="Views\Course\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

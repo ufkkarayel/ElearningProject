@@ -13,9 +13,9 @@ namespace ElearningProject.DAL.Entities
         public int Duration { get; set; }
         public string ImageUrl { get; set; }
         public int CategoryID{ get; set; }
-        public Category Category { get; set; }
+        public virtual Category Category { get; set; }
         public int InstructorID { get; set; }
-        public Instructor Instructor { get; set; }
+        public virtual Instructor Instructor { get; set; }
         public List<CourseRegister> CourseRegisters { get; set; }
 
 
