@@ -16,6 +16,8 @@ namespace ElearningProject.DAL.Entities
         public Category Category { get; set; }
         public int InstructorID { get; set; }
         public Instructor Instructor { get; set; }
+        public List<CourseRegister> CourseRegisters { get; set; }
+
 
     }
 }

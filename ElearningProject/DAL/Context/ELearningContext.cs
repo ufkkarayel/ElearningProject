@@ -18,5 +18,6 @@ namespace ElearningProject.DAL.Context
         public DbSet<Carousel> Carousels { get; set; }
         public DbSet<Student> Students { get; set; }
         public DbSet<Course> Courses { get; set; }
+        public DbSet<CourseRegister> CourseRegisters { get; set; }
     }
 }
