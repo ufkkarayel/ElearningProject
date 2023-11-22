@@ -133,6 +133,7 @@
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\ElearningContext.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InstructorAnalysisController.cs" />
     <Compile Include="Controllers\InstructorController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
@@ -194,6 +195,10 @@
     <Compile Include="Migrations\202311211734479_mig-add-courseregister.cs" />
     <Compile Include="Migrations\202311211734479_mig-add-courseregister.designer.cs">
       <DependentUpon>202311211734479_mig-add-courseregister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202311221908242_mig_add_instructor_titleandcoverimage.cs" />
+    <Compile Include="Migrations\202311221908242_mig_add_instructor_titleandcoverimage.designer.cs">
+      <DependentUpon>202311221908242_mig_add_instructor_titleandcoverimage.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -1018,6 +1023,8 @@
     <Content Include="Views\Course\Index.cshtml" />
     <Content Include="Views\Course\CreateCourse.cshtml" />
     <Content Include="Views\Course\UpdateCourse.cshtml" />
+    <Content Include="Views\InstructorAnalysis\Index.cshtml" />
+    <Content Include="Views\InstructorAnalysis\InstructorPanelPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -1069,6 +1076,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202311211734479_mig-add-courseregister.resx">
       <DependentUpon>202311211734479_mig-add-courseregister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202311221908242_mig_add_instructor_titleandcoverimage.resx">
+      <DependentUpon>202311221908242_mig_add_instructor_titleandcoverimage.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
