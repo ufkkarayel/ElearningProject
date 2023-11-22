@@ -27,6 +27,15 @@ namespace ElearningProject.Controllers
 
                                                }).ToList();
             ViewBag.v = categories;
+
+            List<SelectListItem> instructors = (from y in context.Instructors.ToList()
+                                                select new SelectListItem
+                                                {
+                                                    Text = y.Name + " " + y.Surname,
+                                                    Value = y.InstructorID.ToString()
+                                                }).ToList();
+            ViewBag.v2 = instructors;
+
             return View();
         }
     }

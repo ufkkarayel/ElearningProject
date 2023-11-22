@@ -18,9 +18,12 @@
     <br /><br />
     <label>Kurs Görselini Seçiniz.</label>
     @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
-    <br /><br /> 
+    <br /><br />
     <label>Kategoriyi Seçiniz</label>
-    @Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.v, new { @class = "form-control" })
+    @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.v, new { @class = "form-control" })
+    <br /><br />
+    <label>Eğitmen Seçiniz</label>
+    @Html.DropDownListFor(y =>y.InstructorID, (List<SelectListItem>)ViewBag.v2, new { @class = "form-control" })
     <br /><br />
     <button class="btn btn-primary">Kaydet</button>
 </form>
