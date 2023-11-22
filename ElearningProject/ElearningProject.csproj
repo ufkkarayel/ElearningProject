@@ -1025,6 +1025,7 @@
     <Content Include="Views\Course\UpdateCourse.cshtml" />
     <Content Include="Views\InstructorAnalysis\Index.cshtml" />
     <Content Include="Views\InstructorAnalysis\InstructorPanelPartial.cshtml" />
+    <Content Include="Views\InstructorAnalysis\CommentPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

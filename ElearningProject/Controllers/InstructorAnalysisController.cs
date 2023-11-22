@@ -15,11 +15,15 @@ namespace ElearningProject.Controllers
         {
             return View();
         }
-        public PartialViewResult InstructorPanelPartial(int id)
+        public PartialViewResult InstructorPanelPartial()
         {
-            id = 1;
+            int id = 1;
             var values = context.Instructors.Where(x => x.InstructorID == id).ToList(); ;
             return PartialView(values);
+        }
+        public PartialViewResult CommentPartial()
+        {
+            return PartialView();
         }
     }
 }
