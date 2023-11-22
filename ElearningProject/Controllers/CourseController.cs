@@ -16,5 +16,18 @@ namespace ElearningProject.Controllers
             var values = context.Courses.ToList();
             return View(values);
         }
+        [HttpGet]
+        public ActionResult CreateCourse()
+        {
+            List<SelectListItem> categories = (from x in context.Categories.ToList()
+                                               select new SelectListItem
+                                               {
+                                                   Text = x.CategoryName,
+                                                   Value = x.CategoryID.ToString()
+
+                                               }).ToList();
+            ViewBag.v = categories;
+            return View();
+        }
     }
 }
