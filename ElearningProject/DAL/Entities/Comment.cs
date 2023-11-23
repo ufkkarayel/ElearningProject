@@ -11,5 +11,7 @@ namespace ElearningProject.DAL.Entities
         public string CommentText { get; set; }
         public DateTime CommentTime { get; set; }
         public bool CommentStatus { get; set; }
+        public int StudentID { get; set; }
+        public virtual Student Student { get; set; }
     }
 }
