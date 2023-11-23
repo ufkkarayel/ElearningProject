@@ -152,54 +152,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202311171757186_mig_1.cs" />
-    <Compile Include="Migrations\202311171757186_mig_1.designer.cs">
-      <DependentUpon>202311171757186_mig_1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311181319035_mig-2.cs" />
-    <Compile Include="Migrations\202311181319035_mig-2.designer.cs">
-      <DependentUpon>202311181319035_mig-2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311181717241_mig-3.cs" />
-    <Compile Include="Migrations\202311181717241_mig-3.designer.cs">
-      <DependentUpon>202311181717241_mig-3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311181720376_mig-4.cs" />
-    <Compile Include="Migrations\202311181720376_mig-4.designer.cs">
-      <DependentUpon>202311181720376_mig-4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311181753306_mig-5.cs" />
-    <Compile Include="Migrations\202311181753306_mig-5.designer.cs">
-      <DependentUpon>202311181753306_mig-5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311181818512_mig-6.cs" />
-    <Compile Include="Migrations\202311181818512_mig-6.designer.cs">
-      <DependentUpon>202311181818512_mig-6.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311201634549_mig_add_student.cs" />
-    <Compile Include="Migrations\202311201634549_mig_add_student.designer.cs">
-      <DependentUpon>202311201634549_mig_add_student.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311211710309_add-mig-course.cs" />
-    <Compile Include="Migrations\202311211710309_add-mig-course.designer.cs">
-      <DependentUpon>202311211710309_add-mig-course.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311211715538_mig-add-relation.cs" />
-    <Compile Include="Migrations\202311211715538_mig-add-relation.designer.cs">
-      <DependentUpon>202311211715538_mig-add-relation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311211721452_mig-add-relation-course-instructor.cs" />
-    <Compile Include="Migrations\202311211721452_mig-add-relation-course-instructor.designer.cs">
-      <DependentUpon>202311211721452_mig-add-relation-course-instructor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311211734479_mig-add-courseregister.cs" />
-    <Compile Include="Migrations\202311211734479_mig-add-courseregister.designer.cs">
-      <DependentUpon>202311211734479_mig-add-courseregister.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311221908242_mig_add_instructor_titleandcoverimage.cs" />
-    <Compile Include="Migrations\202311221908242_mig_add_instructor_titleandcoverimage.designer.cs">
-      <DependentUpon>202311221908242_mig_add_instructor_titleandcoverimage.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -1043,44 +995,6 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202311171757186_mig_1.resx">
-      <DependentUpon>202311171757186_mig_1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311181319035_mig-2.resx">
-      <DependentUpon>202311181319035_mig-2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311181717241_mig-3.resx">
-      <DependentUpon>202311181717241_mig-3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311181720376_mig-4.resx">
-      <DependentUpon>202311181720376_mig-4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311181753306_mig-5.resx">
-      <DependentUpon>202311181753306_mig-5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311181818512_mig-6.resx">
-      <DependentUpon>202311181818512_mig-6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311201634549_mig_add_student.resx">
-      <DependentUpon>202311201634549_mig_add_student.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311211710309_add-mig-course.resx">
-      <DependentUpon>202311211710309_add-mig-course.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311211715538_mig-add-relation.resx">
-      <DependentUpon>202311211715538_mig-add-relation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311211721452_mig-add-relation-course-instructor.resx">
-      <DependentUpon>202311211721452_mig-add-relation-course-instructor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311211734479_mig-add-courseregister.resx">
-      <DependentUpon>202311211734479_mig-add-courseregister.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311221908242_mig_add_instructor_titleandcoverimage.resx">
-      <DependentUpon>202311221908242_mig_add_instructor_titleandcoverimage.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
