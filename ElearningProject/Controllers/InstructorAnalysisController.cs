@@ -23,7 +23,8 @@ namespace ElearningProject.Controllers
         }
         public PartialViewResult CommentPartial()
         {
-            return PartialView();
+            var values = context.Comments.ToList();
+            return PartialView(values);
         }
     }
 }
