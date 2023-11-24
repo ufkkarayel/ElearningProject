@@ -23,8 +23,15 @@ namespace ElearningProject.Controllers
         }
         public PartialViewResult CommentPartial()
         {
-            var values = context.Comments.ToList();
-            return PartialView(values);
+            //eğitmen ID getirmek için
+            var v1 = context.Instructors.Where(x => x.Name == "Fatih" && x.Surname == "Çakıroğlu").Select(y => y.InstructorID).FirstOrDefault();
+
+            //v2 değişkeninin için eğitmen ID v1 olan değeri atamak için
+            var v2 = context.Courses.Where(x => x.InstructorID == v1).Select(y => y.CourseID).ToList();
+
+            var v3 = context.Comments.Where(x => v2.Contains(x.CourseID)).ToList();
+
+            return PartialView(v3);
         }
     }
 }
