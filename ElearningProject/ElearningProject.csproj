@@ -139,6 +139,8 @@
     <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="Controllers\TestimonialController.cs" />
     <Compile Include="DAL\Context\ELearningContext.cs" />
+    <Compile Include="DAL\Entities\About.cs" />
+    <Compile Include="DAL\Entities\About2.cs" />
     <Compile Include="DAL\Entities\Carousel.cs" />
     <Compile Include="DAL\Entities\Category.cs" />
     <Compile Include="DAL\Entities\Comment.cs" />
@@ -151,6 +153,10 @@
     <Compile Include="DAL\Entities\Testimonial.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202311251448535_mig-add-abouttable.cs" />
+    <Compile Include="Migrations\202311251448535_mig-add-abouttable.designer.cs">
+      <DependentUpon>202311251448535_mig-add-abouttable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -995,6 +1001,11 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202311251448535_mig-add-abouttable.resx">
+      <DependentUpon>202311251448535_mig-add-abouttable.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

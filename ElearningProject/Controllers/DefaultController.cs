@@ -39,7 +39,8 @@ namespace ElearningProject.Controllers
         }
         public PartialViewResult PartialAbout()
         {
-            return PartialView();
+            var values = context.About2s.ToList();
+            return PartialView(values);
         }
         public PartialViewResult PartialCategory()
         {
@@ -47,15 +48,18 @@ namespace ElearningProject.Controllers
         }
         public PartialViewResult PartialCourse()
         {
-            return PartialView();
+            var values = context.Courses.ToList();
+            return PartialView(values);
         }
         public PartialViewResult PartialTeam()
         {
-            return PartialView();
+            var values = context.Instructors.ToList();
+            return PartialView(values);
         }
         public PartialViewResult PartialTestimonial()
         {
-            return PartialView();
+            var values = context.Testimonials.ToList();
+            return PartialView(values);
         }
         public PartialViewResult PartialFooter()
         {
