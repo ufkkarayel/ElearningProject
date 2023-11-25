@@ -159,6 +159,10 @@
     <Compile Include="Migrations\202311251448535_mig-add-abouttable.designer.cs">
       <DependentUpon>202311251448535_mig-add-abouttable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202311251857145_mig-add-review.cs" />
+    <Compile Include="Migrations\202311251857145_mig-add-review.designer.cs">
+      <DependentUpon>202311251857145_mig-add-review.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -1007,6 +1011,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202311251448535_mig-add-abouttable.resx">
       <DependentUpon>202311251448535_mig-add-abouttable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202311251857145_mig-add-review.resx">
+      <DependentUpon>202311251857145_mig-add-review.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

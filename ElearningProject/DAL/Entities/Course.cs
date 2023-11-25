@@ -18,5 +18,6 @@ namespace ElearningProject.DAL.Entities
         public virtual Instructor Instructor { get; set; }
         public List<CourseRegister> CourseRegisters { get; set; }
         public List<Comment> Comments { get; set; }
+        public List<Review> Reviews { get; set; }
     }
 }
