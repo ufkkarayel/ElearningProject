@@ -1068,7 +1068,6 @@
     <Content Include="Views\InstructorAnalysis\InstructorPanelPartial.cshtml" />
     <Content Include="Views\InstructorAnalysis\CommentPartial.cshtml" />
     <Content Include="Views\InstructorAnalysis\CourseListByInstructor.cshtml" />
-    <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Templates\Login_v16\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
     <Content Include="Templates\Login_v16\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
     <Content Include="Templates\Login_v16\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
@@ -1217,6 +1216,7 @@
     <Content Include="Templates\Login_v1\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
     <Content Include="Templates\Login_v1\vendor\bootstrap\css\bootstrap.css.map" />
     <Content Include="Templates\Login_v1\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
