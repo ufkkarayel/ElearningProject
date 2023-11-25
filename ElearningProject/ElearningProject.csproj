@@ -984,6 +984,7 @@
     <Content Include="Views\InstructorAnalysis\Index.cshtml" />
     <Content Include="Views\InstructorAnalysis\InstructorPanelPartial.cshtml" />
     <Content Include="Views\InstructorAnalysis\CommentPartial.cshtml" />
+    <Content Include="Views\InstructorAnalysis\CourseListByInstructor.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
