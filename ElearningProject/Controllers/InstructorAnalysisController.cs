@@ -33,5 +33,10 @@ namespace ElearningProject.Controllers
 
             return PartialView(v3);
         }
+        public PartialViewResult CourseListByInstructor()
+        {
+            var values = context.Courses.Where(x => x.InstructorID == 1).ToList();
+            return PartialView(values);
+        }
     }
 }
