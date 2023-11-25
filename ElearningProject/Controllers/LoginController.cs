@@ -29,7 +29,7 @@ namespace MyElearningProject.Controllers
             {
                 FormsAuthentication.SetAuthCookie(values.Email, false);
                 Session["CurrentMail"] = values.Email;
-                Session.Timeout = 60;
+                Session.Timeout = 20;
                 return RedirectToAction("Index", "Profile");
             }
             return View();
