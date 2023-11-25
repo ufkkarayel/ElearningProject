@@ -131,10 +131,13 @@
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\ELearnignContext.cs" />
     <Compile Include="Controllers\ElearningContext.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InstructorAnalysisController.cs" />
     <Compile Include="Controllers\InstructorController.cs" />
+    <Compile Include="Controllers\InstructorLoginController.cs" />
+    <Compile Include="Controllers\InstructorProfileController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
@@ -164,6 +167,10 @@
     <Compile Include="Migrations\202311251857145_mig-add-review.cs" />
     <Compile Include="Migrations\202311251857145_mig-add-review.designer.cs">
       <DependentUpon>202311251857145_mig-add-review.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202311252124597_mig-add-instructorcontext.cs" />
+    <Compile Include="Migrations\202311252124597_mig-add-instructorcontext.designer.cs">
+      <DependentUpon>202311252124597_mig-add-instructorcontext.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -1219,6 +1226,8 @@
     <Content Include="Templates\Login_v1\vendor\bootstrap\css\bootstrap.min.css.map" />
     <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Profile\Index.cshtml" />
+    <Content Include="Views\InstructorLogin\Index.cshtml" />
+    <Content Include="Views\InstructorProfile\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -1243,6 +1252,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202311251857145_mig-add-review.resx">
       <DependentUpon>202311251857145_mig-add-review.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202311252124597_mig-add-instructorcontext.resx">
+      <DependentUpon>202311252124597_mig-add-instructorcontext.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
