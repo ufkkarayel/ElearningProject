@@ -140,6 +140,7 @@
     <Compile Include="Controllers\InstructorProfileController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
+    <Compile Include="Controllers\ProfileLayoutController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="Controllers\TestimonialController.cs" />
@@ -153,6 +154,7 @@
     <Compile Include="DAL\Entities\Course.cs" />
     <Compile Include="DAL\Entities\CourseRegister.cs" />
     <Compile Include="DAL\Entities\Instructor.cs" />
+    <Compile Include="DAL\Entities\Process.cs" />
     <Compile Include="DAL\Entities\Review.cs" />
     <Compile Include="DAL\Entities\Services.cs" />
     <Compile Include="DAL\Entities\Student.cs" />
@@ -171,6 +173,10 @@
     <Compile Include="Migrations\202311252124597_mig-add-instructorcontext.cs" />
     <Compile Include="Migrations\202311252124597_mig-add-instructorcontext.designer.cs">
       <DependentUpon>202311252124597_mig-add-instructorcontext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202311252146416_mig-add-process.cs" />
+    <Compile Include="Migrations\202311252146416_mig-add-process.designer.cs">
+      <DependentUpon>202311252146416_mig-add-process.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -1228,6 +1234,13 @@
     <Content Include="Views\Profile\Index.cshtml" />
     <Content Include="Views\InstructorLogin\Index.cshtml" />
     <Content Include="Views\InstructorProfile\Index.cshtml" />
+    <Content Include="Views\Profile\MyCourseList.cshtml" />
+    <Content Include="Views\ProfileLayout\Index.cshtml" />
+    <Content Include="Views\ProfileLayout\PartialHead.cshtml" />
+    <Content Include="Views\ProfileLayout\PartialHeader.cshtml" />
+    <Content Include="Views\ProfileLayout\PartialSidebar.cshtml" />
+    <Content Include="Views\ProfileLayout\PartialScript.cshtml" />
+    <Content Include="Views\ProfileLayout\PartialContent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -1255,6 +1268,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202311252124597_mig-add-instructorcontext.resx">
       <DependentUpon>202311252124597_mig-add-instructorcontext.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202311252146416_mig-add-process.resx">
+      <DependentUpon>202311252146416_mig-add-process.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

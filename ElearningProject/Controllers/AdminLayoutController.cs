@@ -9,6 +9,7 @@ namespace ElearningProject.Controllers
     public class AdminLayoutController : Controller
     {
         // GET: AdminLayout
+        ELearnignContext context = new ELearnignContext();
         public ActionResult Index()
         {
             return View();
