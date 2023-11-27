@@ -1249,11 +1249,11 @@
     <Content Include="Views\ProfileLayout\PartialScript.cshtml" />
     <Content Include="Views\ProfileLayout\PartialContent.cshtml" />
     <Content Include="Views\StudentLogin\Index.cshtml" />
+    <Content Include="Views\AdminLogin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\AdminLogin\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

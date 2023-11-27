@@ -21,14 +21,14 @@ namespace ElearningProject.Controllers
         [HttpPost]
         public ActionResult Index(Admin admin)
         {
-            var values = context.Instructors.FirstOrDefault(x => x.Email == admin.Email && x.Password == admin.Password);
+            var values = context.Admins.FirstOrDefault(x => x.Email == admin.Email && x.Password == admin.Password);
 
             if (values != null)
             {
                 FormsAuthentication.SetAuthCookie(values.Email, false);
                 Session["CurrentMail"] = values.Email;
                 Session.Timeout = 20;
-                return RedirectToAction("Index", "AdminProfile");
+                return RedirectToAction("Index", "Category");
             }
             return View();
         }

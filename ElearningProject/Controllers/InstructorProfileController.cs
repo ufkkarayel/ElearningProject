@@ -13,10 +13,9 @@ namespace ElearningProject.Controllers
         ELearningContext context = new ELearningContext();
         public ActionResult Index()
         {
-            string values = Session["CurrentMail"].ToString();
-            ViewBag.mail = Session["CurrentMail"];
-            ViewBag.name = context.Instructors.Where(x => x.Email == values).Select(y => y.Name + " " + y.Surname).FirstOrDefault();
+           
             return View();
         }
+      
     }
 }
