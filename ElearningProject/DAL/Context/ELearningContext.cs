@@ -23,5 +23,6 @@ namespace ElearningProject.DAL.Context
         public DbSet<About2> About2s { get; set; }
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Process> Processes { get; set; }
+        public DbSet<Admin> Admins { get; set; }
     }
 }

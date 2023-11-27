@@ -3,10 +3,13 @@
     Layout = null;
 }
 
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Giriş Sayfası</title>
+    <title>Öğrenci Girişi</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -33,53 +36,29 @@
     <!--===============================================================================================-->
 </head>
 <body>
-    
+
     <div class="limiter">
-        <div class="container-login100" style="background-image: url('/Templates/Login_v16/images/bg-01.jpg'); ">
+        <div class="container-login100" style="background-image: url('/Templates/Login_v16/images/bg-01.jpg');">
             <div class="wrap-login100 p-t-30 p-b-50">
                 <span class="login100-form-title p-b-41">
-                    GİRİŞ SAYFASI
+                    ÖĞRENCİ GİRİŞİ
                 </span>
-                
-                <div class="container-login100-form-btn m-t-32" style="background:#dbf5ff;border-radius:50px" >
-                    <div class="row g-4">
-                        <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="service-item text-center pt-3">
-                                <a href="/InstructorLogin/Index/">
-                                    <div class="p-4">
-                                        <i class="fa fa-3x fa-graduation-cap text-success mb-4"></i>
-                                        <h5 class="mb-3">Eğitmen</h5>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row g-4">
-                        <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="service-item text-center pt-3">
-                                <a href="/StudentLogin/Index/">
-                                    <div class="p-4">
-                                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-                                        <h5 class="mb-3">Öğrenci</h5>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row g-4">
-                        <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="service-item text-center pt-3">
-                                <a href="/AdminLogin/Index/">
-                                    <div class="p-4">
-                                        <i class="fa fa-3x fa-graduation-cap text-danger mb-4"></i>
-                                        <h5 class="mb-3">Admin</h5>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <form method="post" class="login100-form validate-form p-b-33 p-t-5">
 
+                    <div class="wrap-input100 validate-input" data-validate="Enter username">
+                        <input class="input100" type="text" name="Email" placeholder="Kullanıcı Adı">
+                        <span class="focus-input100" data-placeholder="&#xe82a;"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Enter password">
+                        <input class="input100" type="password" name="Password" placeholder="Parola">
+                        <span class="focus-input100" data-placeholder="&#xe80f;"></span>
+                    </div>
+                    <div class="container-login100-form-btn m-t-32">
+                        <button class="login100-form-btn">
+                            Login
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

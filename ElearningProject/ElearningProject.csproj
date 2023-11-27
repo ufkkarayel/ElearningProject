@@ -128,6 +128,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminLayoutController.cs" />
+    <Compile Include="Controllers\AdminLoginController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
@@ -143,10 +144,12 @@
     <Compile Include="Controllers\ProfileLayoutController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="Controllers\StudentLoginController.cs" />
     <Compile Include="Controllers\TestimonialController.cs" />
     <Compile Include="DAL\Context\ELearningContext.cs" />
     <Compile Include="DAL\Entities\About.cs" />
     <Compile Include="DAL\Entities\About2.cs" />
+    <Compile Include="DAL\Entities\Admin.cs" />
     <Compile Include="DAL\Entities\Carousel.cs" />
     <Compile Include="DAL\Entities\Category.cs" />
     <Compile Include="DAL\Entities\Comment.cs" />
@@ -177,6 +180,10 @@
     <Compile Include="Migrations\202311252146416_mig-add-process.cs" />
     <Compile Include="Migrations\202311252146416_mig-add-process.designer.cs">
       <DependentUpon>202311252146416_mig-add-process.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202311271859553_mig-add-admin.cs" />
+    <Compile Include="Migrations\202311271859553_mig-add-admin.designer.cs">
+      <DependentUpon>202311271859553_mig-add-admin.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -1241,10 +1248,12 @@
     <Content Include="Views\ProfileLayout\PartialSidebar.cshtml" />
     <Content Include="Views\ProfileLayout\PartialScript.cshtml" />
     <Content Include="Views\ProfileLayout\PartialContent.cshtml" />
+    <Content Include="Views\StudentLogin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\AdminLogin\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -1271,6 +1280,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202311252146416_mig-add-process.resx">
       <DependentUpon>202311252146416_mig-add-process.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202311271859553_mig-add-admin.resx">
+      <DependentUpon>202311271859553_mig-add-admin.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
